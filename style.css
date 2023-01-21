@@ -1,0 +1,39 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.897);
+  color: rgba(255, 255, 255, 0.884);
+}
+
+code {
+  font-family: monospace;
+  font-size: 1.2em;
+  color: rgba(189, 157, 157, 0.918);
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: auto;
+  padding: 10px;
+}
+
+.first-row {
+  text-align: left;
+  min-width: 150px;
+}
+
+.top-column {
+  font-size: 1.2em;
+}
+
+table {
+  width: 35%;
+  font-size: .9em;
+}
+
+h1 {
+  text-align: center;
+}
