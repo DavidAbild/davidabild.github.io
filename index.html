@@ -1,9 +1,141 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Table References</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
 <body>
-  <h1>Hello</h1>
-  <p>What a great piece of art this is</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  
+  <!-- Header -->
+  <h1>CSS References</h1>
+
+  <!-- Table CSS -->
+  <div>
+    <table>
+      <tbody>
+        <tr class="top-column">
+          <th scope="col" style="width: 20%">Property</th>
+          <th scope="col" style="width: 50%">Description</th>
+          <th scope="col" style="width: 30%">Example/values</th>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">color</th>
+          <td>Foreground color</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">background-color</th>
+          <td>Background color</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">background-image</th>
+          <td>Sets an image as the background</td>
+          <td><code>background-image: url("paper.gif");</code></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">display</th>
+          <td>Determines the display behavior</td>
+          <td>none, inline, block, inline-block, flex (and more)</td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">width</th>
+          <td>Width</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">height</th>
+          <td>Height</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">min-width</th>
+          <td>Minimum width</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">min-height</th>
+          <td>Minimum height</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">max-width</th>
+          <td>Maximum width</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">max-height</th>
+          <td>Maximum height</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">margin</th>
+          <td>Shorthand to set margin around element</td>
+          <td><code>margin: 10px 5px 15px 20px;</code></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">padding</th>
+          <td>Shorthand to set padding inside of the element</td>
+          <td><code>padding: 10px 5px 15px 20px;</code></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">border</th>
+          <td>Shorthand to set border around element</td>
+          <td><code>border: 5px solid red;</code></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">border-color</th>
+          <td>Color of the border</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">border-width</th>
+          <td>Width of the border</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">border-style</th>
+          <td>Sets the style of the border</td>
+          <td>dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden</td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">border-radius</th>
+          <td>Radius of the border, used to round the edges</td>
+          <td><code>border-radius: 50%</code> (this example will make a square element become a round circle)</td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">font-family</th>
+          <td>Sets the font family</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">font-style</th>
+          <td>Style of the font</td>
+          <td>normal, italic, oblique, initial, inherit</td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">font-weight</th>
+          <td>Determines how thick/thin characters in text should be displayed</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">position</th>
+          <td>Positioning method used</td>
+          <td>static, absolute, fixed, relative, sticky, initial, inherit</td>
+        </tr>
+        <tr>
+          <th class="first-row" scope="row">z-index</th>
+          <td>Specifies the stack order of an element</td>
+          <td><code>z-index: 10;</code> (greater stack order is always in front of an element with a lower stack order, negatives allowed)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </body>
- 
 </html>
